@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-docker-service",
+  "version": "1.0.0",
+  "description": "nodejs docker service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzpan/nodejs-docker-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youzpan/nodejs-docker-service/issues"
+  },
+  "homepage": "https://github.com/youzpan/nodejs-docker-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
