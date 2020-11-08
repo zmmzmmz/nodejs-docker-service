@@ -2,6 +2,6 @@ version: '3'
 
 services:
   webapp:
-    image: xxx
+    image: registry.cn-hangzhou.aliyuncs.com/aslan/nodejs-web-demo:v1
     ports:
       - '3333:3333'
