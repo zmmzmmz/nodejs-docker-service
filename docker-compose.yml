@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  webapp:
+    image: xxx
+    ports:
+      - '3333:3333'
