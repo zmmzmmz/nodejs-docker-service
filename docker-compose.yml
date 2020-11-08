@@ -3,5 +3,10 @@ version: '3'
 services:
   webapp:
     image: registry.cn-hangzhou.aliyuncs.com/aslan/nodejs-web-demo:v1
+    networks:
+      - overlay
     ports:
       - '3333:3333'
+    deploy:
+      mode: replicated
+      replicas: 2
